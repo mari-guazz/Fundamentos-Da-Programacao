@@ -11,8 +11,9 @@ public class Aula03{
          * Subtração: -
          * Multiplicação: *
          * Divisão: /
-         * Divisão, retorna resto: % (mod ou módulo)
          * Potenciação: **
+         * Divisão, retorna resto: % (mod ou módulo)
+         * 
          * 
          * 
          */
