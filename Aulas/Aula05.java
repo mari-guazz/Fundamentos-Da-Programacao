@@ -17,25 +17,25 @@ public class Aula05{
         
         Scanner scan = new Scanner(System.in);
         //IMPRIME DE 0 A 10
-        for (int i = 0; i <= 10; i++) {
-            System.out.println(i + " ->");
-        }
-        System.out.println("/n");
+        // for (int i = 0; i <= 10; i++) {
+            // System.out.println(i + " ->");
+        // }
+        // System.out.println("/n");
         
         //Imprime de 0 a 100, em incrementos de 10
         
-        for (int i = 0; i <= 100; i+= 10 ) {
-            System.out.println(i + " ->");
-        }
+        // for (int i = 0; i <= 100; i+= 10 ) {
+            // System.out.println(i + " ->");
+        // }
         
         //Imprime de 100 a 1, em idecrementos de 25
         
-        for (int i = 100; i <= 100; i -= 25) {
-            System.out.println(i);
-            if (i >= 25) {
-                System.out.print(" -->");
-            }
-        }
+        // for (int i = 100; i <= 100; i -= 25) {
+            // System.out.println(i);
+            // if (i >= 25) {
+                // System.out.print(" -->");
+            // }
+        // }
         
         // Solicita um número para o usuário e retorna a tabuada deste número
         // System.out.println("/nDigite um valor para calcular sua tabuada: ");
@@ -46,12 +46,12 @@ public class Aula05{
          // }
         
          // Imprime de 1 a 10, com exceção do valor 3, usando if
-         System.out.println("/n");
-         for (int i = 1; i <= 10; i++) {
-             if (i != 3) {
-             System.out.println(i + " -> ");
-            }
-         }
+         // System.out.println("/n");
+         // for (int i = 1; i <= 10; i++) {
+             // if (i != 3) {
+             // System.out.println(i + " -> ");
+            // }
+         // }
          
          //Execução encadeada de for (for dentro de for)
          // System.out.println("/n");
@@ -75,13 +75,13 @@ public class Aula05{
           *     }
           */
          
-         // Imprimir de 0 a 10 utiliuzando while
-         System.out.println("/n");
+         // // Imprimir de 0 a 10 utiliuzando while
+         // System.out.println("/n");
          int i = 0;
-         while (i <= 10) {
-             System.out.print(i + " -> ");
-             i++;
-         }
+         // while (i <= 10) {
+             // System.out.print(i + " -> ");
+             // i++;
+         // }
          
          //Imprimir de 100 a 0 utilizando while, com exceção do 70
          System.out.println("/n");
@@ -95,27 +95,27 @@ public class Aula05{
          }
          
          //Imprimir de 100 a 0 utilizando while, com exceção do 70, e o break
-         System.out.println("/n");
-         i = 100;
-         while (i  >= 0) {
-             if ( i == 70) {
-                 break;
-            }
-            System.out.print(i + " -> ");
-             i -= 10;
-         }
+         // System.out.println("/n");
+         // i = 100;
+         // while (i  >= 0) {
+             // if ( i == 70) {
+                 // break;
+            // }
+            // System.out.print(i + " -> ");
+             // i -= 10;
+         // }
          
          //Jogo bobo de adivinha
-         int numImaginado = 42;
-         System.out.println("/nQual número estou pensando, entre 1 e 100? ");
-         int tentativa = scan.nextInt();
+         // int numImaginado = 42;
+         // System.out.println("/nQual número estou pensando, entre 1 e 100? ");
+         // int tentativa = scan.nextInt();
          
-         while (tentativa != numImaginado) {
-             System.out.println("Errou otário. Tenta de novo: ");
-             tentativa = scan.nextInt();
-         }
+         // while (tentativa != numImaginado) {
+             // System.out.println("Errou otário. Tenta de novo: ");
+             // tentativa = scan.nextInt();
+         // }
          
-         System.out.println("Acertô, mizerávi ");
+         // System.out.println("Acertô, mizerávi ");
 }
 
 }
