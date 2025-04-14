@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=trabalho05
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=java.lang.String\ menu()
+comment3.params=
+comment3.target=void\ opcaoUm()
+comment4.params=
+comment4.target=void\ opcaoDois()
+comment5.params=
+comment5.target=void\ opcaoTres()
+comment6.params=
+comment6.target=void\ opcaoQuatro()
+comment7.params=
+comment7.target=void\ opcaoCinco()
+comment8.params=
+comment8.target=void\ opcaoSeis()
+numComments=9
